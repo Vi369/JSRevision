@@ -18,3 +18,6 @@ console.log(undefined >= 0)
 
 
 // strict check
+
+console.log("2"===2) // no conversion direct check and reject
+console.log("2"==2) // conversion thats why value is true
