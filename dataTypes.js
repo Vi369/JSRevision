@@ -16,5 +16,5 @@ console.log(3+
 
     // object
     
-    console.log(typeof null)
+    console.log(typeof null) // null is a object in js
     console.log(typeof undefined)
