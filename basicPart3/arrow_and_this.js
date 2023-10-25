@@ -52,4 +52,4 @@ const multiply = (num1, num2)=> ({name: "vikas"}); // object ko direct return na
 
 console.log(multiply(6,5));
 
-
+// commit
