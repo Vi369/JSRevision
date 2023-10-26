@@ -15,16 +15,22 @@ countriesCode.set('Usa', "united states of Amerika");
 // console.log(countriesCode);
 
 // for (const [key, value] of countriesCode) {
-    // console.log(key, ":=>", value)
+//     console.log(key, ":=>", value)
 // }
 
-const myObj = {
-    name: "vikas",
-    age: 18
-}
+// const myObj = {
+//     name: "vikas",
+//     age: 18
+// }
 
-for (const [key, value] of myObj) {
-    console.log(key, value)
-}
+// for (const [key, value] of myObj) {
+//     console.log(key, value)
+// }
 
 // objects iterables nahi hote hai itterate kar sakte hai pr aise nahi
+
+
+// run nahi hoga kiuji ye itterable nahi hai 
+for (const [key, value] in countriesCode) {
+    console.log(key, value)
+}
