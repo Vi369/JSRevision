@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="orange">orange</button>
+    <button id="green">green</button>
+</body>
+<script>
+    // 1000000 button then ? 
+    // document.getElementById("orange").onclick = function(){
+    //     document.body.style.backgroundColor = "orange"
+    // }
+    // document.getElementById("green").onclick = function(){
+    //     document.body.style.backgroundColor = "green"
+    // }
+        
+    function handleClick(color){
+        return function(){
+        document.body.style.backgroundColor = `${color}`;
+    }
+    }
+            
+
+</script>
+<script>
+    document.getElementById("orange").onclick= handleClick("orange")
+    document.getElementById("green").onclick = handleClick("green")
+</script>
+</html>
